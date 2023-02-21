@@ -27,10 +27,10 @@ nav div ul li{
   display: inline-block;
   margin: 0 10px;
 }
-.logo-nav{
+.nav-logo{
   width: calc(100% / 4);
 }
-.links-nav{
+.nav-links{
   text-align: center;
   width: calc(100% / 4 * 2);
 }
@@ -58,7 +58,6 @@ header{
   width: 42%;
 }
 .intro{
-  width: 100%;
   text-align: center;
   padding-bottom: 20px;
   margin-top: 30px;
@@ -106,7 +105,6 @@ header{
   padding-bottom: 20px;
 }
 .download-container{
-  width: 100%;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -142,7 +140,7 @@ footer{
   color: rgb(114,137,218);
 }
 .social-info span{
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
 }
 .social-info a{
