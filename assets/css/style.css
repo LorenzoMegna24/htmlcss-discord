@@ -124,6 +124,9 @@ header{
   background-color: rgb(142,161,225);
   color: rgb(246,246,246);
 }
+.wave{
+  width: 100%;
+}
 /* footer */
 footer{
   background-color: rgb(35,39,42);
