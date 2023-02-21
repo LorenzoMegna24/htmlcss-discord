@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  border: solid 2px red;
+  background-color: skyblue;
+}
+.container-nav{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 60%;
+  border: solid 5px green;
+}
+nav div ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.logo-nav{
+  border: solid 2px black;
+  width: calc(100% / 4);
+}
+.links-nav{
+  border: solid 2px black;
+  text-align: center;
+  width: calc(100% / 4 * 2);
+}
+.login{
+  border: solid 2px black;
+  width: calc(100% / 4);
+}
+header{
+  background-color: blue;
+  padding-bottom: 1px;
+}
+.container-head{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 50%;
+  border: solid 3px greenyellow;
+}
+.info-download{
+  background-color: magenta;
+  width: 100%;
+  height: 300px;
+}
+.section-even{
+  background-color: lightgray;
+}
+.section-odd{
+  background-color: white;
+}
+.container-cards{
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.container-img{
+  background-color: skyblue;
+  height: 400px;
+  width: 70%;
+}
+.container-content{
+  background-color: pink;
+  height: 400px;
+  width: 30%;
+}
+.container-download{
+  background-color: green;
+  height: 700px;
+  width: 100%;
+}
+footer{
+  background-color: rgb(35,39,42);
+}
+.container-footer{
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.social-info{
+  background-color: salmon;
+  height: 500px;
+  width: calc(100% / 6 * 2);
+}
+.info{
+  background-color: darkcyan;
+  height: 500px;
+  width: calc(100% / 6);
+  border: solid 2px black;
+}
+.logo-footer, .login-footer{
+  height: 40px;
+  background-color: sandybrown;
+  width: 50%;
+  border: solid 2px red;
+}
+.login-footer{
+  text-align: right;
+}
+hr{
+  background-color: darkgray;
+  height:2px;
+  border-width:0;
+  margin: 0 auto;
+  width: 70%;
+}
