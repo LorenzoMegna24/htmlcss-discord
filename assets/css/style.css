@@ -114,7 +114,7 @@ header{
   padding-bottom: 40px;
 }
 .stars{
-  background-image: url(/assets/img/stars.svg);
+  background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
